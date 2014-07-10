@@ -1,0 +1,12 @@
+Package: vggtheme
+Version: 1.0.0
+Type: Package
+Title: Personal and Stolen Themes
+Depends:
+    R (>= 2.14),
+    ggplot2 (>= 0.9.2),
+    ggthemes (>= 1.7.0)
+Date: 2014-07-09
+Author: vlandham
+Description: Just some of my own themes. Mostly stolen.
+License: GPL-2
