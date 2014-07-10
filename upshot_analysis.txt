@@ -1,0 +1,58 @@
+
+# barchart:
+http://www.nytimes.com/2014/07/04/upshot/when-halibut-was-plentiful.html?rref=upshot
+http://www.nytimes.com/2014/06/29/upshot/americans-think-we-have-the-worlds-best-colleges-we-dont.html?rref=upshot
+http://www.nytimes.com/2014/06/28/upshot/a-minimum-wage-that-makes-more-sense.html?rref=upshot
+# scatterplot:
+http://www.nytimes.com/2014/06/25/upshot/big-jump-in-turnout-is-key-in-thad-cochrans-victory.html?rref=upshot
+# linechart:
+http://www.nytimes.com/2014/06/20/upshot/raise-minimum-wage-past-10-been-here-before.html
+http://www.nytimes.com/2014/07/08/upshot/welcome-to-the-everything-boom-or-maybe-the-everything-bubble.html?rref=upshot
+http://www.nytimes.com/interactive/2014/07/08/upshot/how-the-year-you-were-born-influences-your-politics.html
+http://www.nytimes.com/2014/06/24/upshot/the-reality-of-student-debt-is-different-from-the-cliches.html?rref=upshot
+# map:
+http://www.nytimes.com/2014/07/03/upshot/where-the-christian-right-is-strong.html?rref=upshot
+http://www.nytimes.com/2014/06/26/upshot/where-are-the-hardest-places-to-live-in-the-us.html?smid=pl-share
+# bullet:
+http://www.nytimes.com/2014/07/10/upshot/voting-totals-reveal-crucial-boost-from-blacks-in-cochrans-victory.html
+
+#interactive:
+http://www.nytimes.com/interactive/2014/07/08/upshot/how-the-year-you-were-born-influences-your-politics.html
+http://www.nytimes.com/newsgraphics/2014/senate-model/
+
+
+
+stroke: rgb(92, 0, 51);
+stroke-linejoin: round;
+stroke-width: 2px;
+
+.line {
+fill: none;
+}
+
+
+#g-graphic {
+font-family: NYT-Franklin;
+font-size: 13px;
+}
+
+#g-graphic text {
+font-size: 11px;
+fill: #666;
+}
+
+rect {
+fill: #eee;
+}
+
+#g-graphic .axis line {
+stroke: #ddd;
+opacity: 0.7;
+}
+
+// example of categorical from
+//
+
+#D75539;
+#F3AF41;
+#F7EFB2;
