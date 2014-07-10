@@ -10,3 +10,7 @@ Date: 2014-07-09
 Author: vlandham
 Description: Just some of my own themes. Mostly stolen.
 License: GPL-2
+Collate:
+  'vggtheme-package.R'
+  'upshot.R'
+  
