@@ -38,7 +38,7 @@ theme_upshot <- function(base_size = 12, base_family = "sans") {
      legend.direction = "horizontal",
      legend.box = "vertical",
      panel.grid = element_line(colour = NULL),
-     panel.grid.major = element_line(colour = upshot_colors['ltgray'], size = 1.2),
+     panel.grid.major = element_line(colour = upshot_colors['ltgray'], size = 0.8),
      panel.grid.minor = element_blank(),
      # unfortunately, can't mimic subtitles
      plot.title = element_text(hjust = 0, size = rel(1.5), face = "bold"),
@@ -55,7 +55,7 @@ theme_upshot <- function(base_size = 12, base_family = "sans") {
 #' @examples
 #' library("scales")
 #' show_col(upshot_pal()(3))
-upshot_pal <- function() {
+upshot_pal <- function(fill = TRUE) {
   function(n) {
     colors <- upshot_colors[c('pink', 'blue', 'green')]
     unname(colors[seq_len(n)])
@@ -72,7 +72,7 @@ upshot_pal <- function() {
 ##' @seealso \code{\link{theme_upshot}} for examples.
 ##' @export
 scale_colour_upshot <- function(...) {
-  discrete_scale("colour", "economist", upshot_pal(), ...)  
+  discrete_scale("colour", "upshot", upshot_pal(), ...)  
 }
 
 #' @rdname scale_fivethirtyeight
