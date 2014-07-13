@@ -1,8 +1,4 @@
 exportPattern("^[[:alpha:]]+")
-import(colorspace)
 import(ggplot2)
 import(ggthemes)
 import(grid)
-import(proto)
-import(scales)
-
